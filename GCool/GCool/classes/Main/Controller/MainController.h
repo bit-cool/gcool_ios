@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MainController : UIViewController
+#import "DockController.h"
+@interface MainController : DockController
 
 
 @end

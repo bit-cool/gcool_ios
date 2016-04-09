@@ -38,6 +38,15 @@
 		8BD340661CB7A05000958895 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3405C1CB7A05000958895 /* DDMultiFormatter.m */; };
 		8BD340671CB7A8D400958895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD33F471CB5062000958895 /* Main.storyboard */; };
 		8BD340681CB7A8DA00958895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD33F461CB5062000958895 /* LaunchScreen.storyboard */; };
+		8BD340701CB8DD4A00958895 /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3406B1CB8DD4A00958895 /* Dock.m */; };
+		8BD340711CB8DD4A00958895 /* DockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3406D1CB8DD4A00958895 /* DockController.m */; };
+		8BD340721CB8DD4A00958895 /* DockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3406F1CB8DD4A00958895 /* DockItem.m */; };
+		8BD340751CB8F9F900958895 /* CommonNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD340741CB8F9F900958895 /* CommonNavController.m */; };
+		8BD3407D1CB8FF3D00958895 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3407C1CB8FF3D00958895 /* MyController.m */; };
+		8BD340941CB902D300958895 /* CreateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD340931CB902D300958895 /* CreateController.m */; };
+		8BD3409A1CB903D100958895 /* RankController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD340991CB903D100958895 /* RankController.m */; };
+		8BD3409D1CB903E400958895 /* AMDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3409C1CB903E400958895 /* AMDController.m */; };
+		8BD340A01CB9043600958895 /* FoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3409F1CB9043600958895 /* FoundController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +128,24 @@
 		8BD3405A1CB7A05000958895 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		8BD3405B1CB7A05000958895 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
 		8BD3405C1CB7A05000958895 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		8BD3406A1CB8DD4A00958895 /* Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dock.h; sourceTree = "<group>"; };
+		8BD3406B1CB8DD4A00958895 /* Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
+		8BD3406C1CB8DD4A00958895 /* DockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockController.h; sourceTree = "<group>"; };
+		8BD3406D1CB8DD4A00958895 /* DockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockController.m; sourceTree = "<group>"; };
+		8BD3406E1CB8DD4A00958895 /* DockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockItem.h; sourceTree = "<group>"; };
+		8BD3406F1CB8DD4A00958895 /* DockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockItem.m; sourceTree = "<group>"; };
+		8BD340731CB8F9F900958895 /* CommonNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNavController.h; sourceTree = "<group>"; };
+		8BD340741CB8F9F900958895 /* CommonNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNavController.m; sourceTree = "<group>"; };
+		8BD3407B1CB8FF3D00958895 /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		8BD3407C1CB8FF3D00958895 /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		8BD340921CB902D300958895 /* CreateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateController.h; sourceTree = "<group>"; };
+		8BD340931CB902D300958895 /* CreateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateController.m; sourceTree = "<group>"; };
+		8BD340981CB903D100958895 /* RankController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankController.h; sourceTree = "<group>"; };
+		8BD340991CB903D100958895 /* RankController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankController.m; sourceTree = "<group>"; };
+		8BD3409B1CB903E400958895 /* AMDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDController.h; sourceTree = "<group>"; };
+		8BD3409C1CB903E400958895 /* AMDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDController.m; sourceTree = "<group>"; };
+		8BD3409E1CB9043600958895 /* FoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundController.h; sourceTree = "<group>"; };
+		8BD3409F1CB9043600958895 /* FoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +241,11 @@
 		8BD33F4D1CB5062B00958895 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				8BD3407E1CB9013C00958895 /* AMD */,
+				8BD340831CB9013C00958895 /* Create */,
+				8BD340881CB9013C00958895 /* Found */,
+				8BD3408D1CB9013C00958895 /* Rank */,
+				8BD340761CB8FE6700958895 /* My */,
 				8BD33F4E1CB5062B00958895 /* Main */,
 				8BD33F551CB5062B00958895 /* Other */,
 			);
@@ -257,6 +289,7 @@
 		8BD33F541CB5062B00958895 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8BD340691CB8DD4A00958895 /* Dock */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +315,8 @@
 		8BD33F571CB5062B00958895 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8BD340731CB8F9F900958895 /* CommonNavController.h */,
+				8BD340741CB8F9F900958895 /* CommonNavController.m */,
 				8BD33FDF1CB7838700958895 /* UncaughtExceptionHandl.h */,
 				8BD33FE01CB7838700958895 /* UncaughtExceptionHandl.m */,
 				8BD33F581CB5062B00958895 /* AppDelegate.h */,
@@ -429,6 +464,224 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8BD340691CB8DD4A00958895 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3406A1CB8DD4A00958895 /* Dock.h */,
+				8BD3406B1CB8DD4A00958895 /* Dock.m */,
+				8BD3406C1CB8DD4A00958895 /* DockController.h */,
+				8BD3406D1CB8DD4A00958895 /* DockController.m */,
+				8BD3406E1CB8DD4A00958895 /* DockItem.h */,
+				8BD3406F1CB8DD4A00958895 /* DockItem.m */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		8BD340761CB8FE6700958895 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				8BD340771CB8FE6700958895 /* Controller */,
+				8BD340781CB8FE6700958895 /* Model */,
+				8BD340791CB8FE6700958895 /* Tool */,
+				8BD3407A1CB8FE6700958895 /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		8BD340771CB8FE6700958895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3407B1CB8FF3D00958895 /* MyController.h */,
+				8BD3407C1CB8FF3D00958895 /* MyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BD340781CB8FE6700958895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD340791CB8FE6700958895 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8BD3407A1CB8FE6700958895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BD3407E1CB9013C00958895 /* AMD */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3407F1CB9013C00958895 /* Controller */,
+				8BD340801CB9013C00958895 /* Model */,
+				8BD340811CB9013C00958895 /* Tool */,
+				8BD340821CB9013C00958895 /* View */,
+			);
+			path = AMD;
+			sourceTree = "<group>";
+		};
+		8BD3407F1CB9013C00958895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3409B1CB903E400958895 /* AMDController.h */,
+				8BD3409C1CB903E400958895 /* AMDController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BD340801CB9013C00958895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD340811CB9013C00958895 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8BD340821CB9013C00958895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BD340831CB9013C00958895 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				8BD340841CB9013C00958895 /* Controller */,
+				8BD340851CB9013C00958895 /* Model */,
+				8BD340861CB9013C00958895 /* Tool */,
+				8BD340871CB9013C00958895 /* View */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		8BD340841CB9013C00958895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BD340921CB902D300958895 /* CreateController.h */,
+				8BD340931CB902D300958895 /* CreateController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BD340851CB9013C00958895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD340861CB9013C00958895 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8BD340871CB9013C00958895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BD340881CB9013C00958895 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				8BD340891CB9013C00958895 /* Controller */,
+				8BD3408A1CB9013C00958895 /* Model */,
+				8BD3408B1CB9013C00958895 /* Tool */,
+				8BD3408C1CB9013C00958895 /* View */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		8BD340891CB9013C00958895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3409E1CB9043600958895 /* FoundController.h */,
+				8BD3409F1CB9043600958895 /* FoundController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BD3408A1CB9013C00958895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD3408B1CB9013C00958895 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8BD3408C1CB9013C00958895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BD3408D1CB9013C00958895 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				8BD3408E1CB9013C00958895 /* Controller */,
+				8BD3408F1CB9013C00958895 /* Model */,
+				8BD340901CB9013C00958895 /* Tool */,
+				8BD340911CB9013C00958895 /* View */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		8BD3408E1CB9013C00958895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BD340981CB903D100958895 /* RankController.h */,
+				8BD340991CB903D100958895 /* RankController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8BD3408F1CB9013C00958895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD340901CB9013C00958895 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8BD340911CB9013C00958895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -530,23 +783,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD340641CB7A05000958895 /* DDContextFilterLogFormatter.m in Sources */,
+				8BD3409A1CB903D100958895 /* RankController.m in Sources */,
 				8BD340651CB7A05000958895 /* DDDispatchQueueLogFormatter.m in Sources */,
 				8BD33F5E1CB5062B00958895 /* AppDelegate.m in Sources */,
+				8BD3409D1CB903E400958895 /* AMDController.m in Sources */,
 				8BD340611CB7A05000958895 /* DDFileLogger.m in Sources */,
+				8BD340711CB8DD4A00958895 /* DockController.m in Sources */,
 				8BD33F881CB507DB00958895 /* DoCoExporterManager.m in Sources */,
 				8BD33F5F1CB5062B00958895 /* main.m in Sources */,
+				8BD340701CB8DD4A00958895 /* Dock.m in Sources */,
 				8BD33F8C1CB507DB00958895 /* FileTool.m in Sources */,
 				8BD33FE11CB7838700958895 /* UncaughtExceptionHandl.m in Sources */,
 				8BD340601CB7A05000958895 /* DDASLLogger.m in Sources */,
 				8BD33F891CB507DB00958895 /* DoCoExporterWriter.m in Sources */,
 				8BD33F5D1CB5062B00958895 /* MainController.m in Sources */,
+				8BD340721CB8DD4A00958895 /* DockItem.m in Sources */,
+				8BD340941CB902D300958895 /* CreateController.m in Sources */,
 				8BD340631CB7A05000958895 /* DDTTYLogger.m in Sources */,
 				8BD33F851CB507DB00958895 /* AnimationAnalysisTool.m in Sources */,
 				8BD3405E1CB7A05000958895 /* DDAbstractDatabaseLogger.m in Sources */,
+				8BD340A01CB9043600958895 /* FoundController.m in Sources */,
 				8BD3405D1CB7A05000958895 /* CLIColor.m in Sources */,
 				8BD340661CB7A05000958895 /* DDMultiFormatter.m in Sources */,
+				8BD3407D1CB8FF3D00958895 /* MyController.m in Sources */,
 				8BD33F8A1CB507DB00958895 /* DoCoFilterTool.m in Sources */,
 				8BD33F821CB507DB00958895 /* AVCamUtilities.m in Sources */,
+				8BD340751CB8F9F900958895 /* CommonNavController.m in Sources */,
 				8BD33F801CB507DB00958895 /* AVCamCaptureManager.m in Sources */,
 				8BD340621CB7A05000958895 /* DDLog.m in Sources */,
 				8BD33F861CB507DB00958895 /* AnimationTool.m in Sources */,

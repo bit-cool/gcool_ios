@@ -8,6 +8,12 @@
 
 #import "AppDelegate.h"
 
+//定义工程Dock总布局及颜色
+#define kDockItemNormalColor [UIColor whiteColor]
+#define kDockItemSelectColor [UIColor greenColor]
+#define kDockHeight 44
+#define kDockItemCount 5
+
 //定义iphone型号
 #define isIphone5 ([UIScreen mainScreen].bounds.size.height == 568)
 #define isIphone6 ([UIScreen mainScreen].bounds.size.height == 667)
